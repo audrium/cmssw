@@ -4,6 +4,9 @@
 namespace CondFormats_HcalObjects {
   struct dictionary {
 
+    HcalODFCorrections myodfs();
+    std::vector<HcalODFCorrection> myodfVec;
+
     HcalPedestals mypeds();
     std::vector<HcalPedestal> mypedsVec;
  
