@@ -62,6 +62,8 @@ int main()
     testSerialization<HcalPFCorr>();
     testSerialization<HcalPFCorrs>();
     testSerialization<HcalPedestal>();
+    testSerialization<HcalODFCorrections>();
+    testSerialization<HcalODFCorrection>();
     testSerialization<HcalPedestalWidth>();
     testSerialization<HcalPedestalWidths>();
     testSerialization<HcalPedestals>();
@@ -91,6 +93,8 @@ int main()
     testSerialization<std::pair<std::string, std::vector<HcalMCParam>>>();
     testSerialization<std::pair<std::string, std::vector<HcalPFCorr>>>();
     testSerialization<std::pair<std::string, std::vector<HcalPedestal>>>();
+    testSerialization<std::pair<std::string, std::vector<HcalODFCorrection>>>();
+    testSerialization<std::pair<std::string, std::vector<HcalODFCorrections>>>();
     testSerialization<std::pair<std::string, std::vector<HcalPedestalWidth>>>();
     testSerialization<std::pair<std::string, std::vector<HcalQIECoder>>>();
     testSerialization<std::pair<std::string, std::vector<HcalRecoParam>>>();
@@ -117,6 +121,8 @@ int main()
     testSerialization<std::vector<HcalMCParam>>();
     testSerialization<std::vector<HcalPFCorr>>();
     testSerialization<std::vector<HcalPedestal>>();
+    testSerialization<std::vector<HcalODFCorrection>>();
+    testSerialization<std::vector<HcalODFCorrections>>();
     testSerialization<std::vector<HcalPedestalWidth>>();
     testSerialization<std::vector<HcalQIECoder>>();
     testSerialization<std::vector<HcalRecoParam>>();
@@ -137,6 +143,8 @@ int main()
     testSerialization<std::vector<std::pair<std::string, std::vector<HcalMCParam>>>>();
     testSerialization<std::vector<std::pair<std::string, std::vector<HcalPFCorr>>>>();
     testSerialization<std::vector<std::pair<std::string, std::vector<HcalPedestal>>>>();
+    testSerialization<std::vector<std::pair<std::string, std::vector<HcalODFCorrections>>>>();
+    testSerialization<std::vector<std::pair<std::string, std::vector<HcalODFCorrection>>>>();
     testSerialization<std::vector<std::pair<std::string, std::vector<HcalPedestalWidth>>>>();
     testSerialization<std::vector<std::pair<std::string, std::vector<HcalQIECoder>>>>();
     testSerialization<std::vector<std::pair<std::string, std::vector<HcalRecoParam>>>>();
